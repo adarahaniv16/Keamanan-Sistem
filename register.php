@@ -13,22 +13,22 @@ if (isset($_SESSION['username'])) {
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $email = $_POST['email'];
-    $password = md5($_POST['password']);
-    $cpassword = md5($_POST['cpassword']);
+    $NIK = md5($_POST['NIK']);
+    $cNIK = md5($_POST['cNIK']);
  
-    if ($password == $cpassword) {
-        $sql = "SELECT * FROM users WHERE email='$email'";
+    if ($NIK == $cNIK) {
+        $sql = "SELECT * FROM member WHERE email='$email'";
         $result = mysqli_query($conn, $sql);
         if (!$result->num_rows > 0) {
-            $sql = "INSERT INTO users (username, email, password)
-                    VALUES ('$username', '$email', '$password')";
+            $sql = "INSERT INTO member (nm_member, email, NIK)
+                    VALUES ('$username', '$email', '$NIK')";
             $result = mysqli_query($conn, $sql);
             if ($result) {
                 echo "<script>alert('Selamat, registrasi berhasil!')</script>";
                 $username = "";
                 $email = "";
-                $_POST['password'] = "";
-                $_POST['cpassword'] = "";
+                $_POST['NIK'] = "";
+                $_POST['cNIK'] = "";
             } else {
                 echo "<script>alert('Woops! Terjadi kesalahan.')</script>";
             }
@@ -66,10 +66,10 @@ if (isset($_POST['submit'])) {
                 <input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
             </div>
             <div class="input-group">
-                <input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
+                <input type="password" placeholder="NIK" name="NIK" value="<?php echo $_POST['NIK']; ?>" required>
             </div>
             <div class="input-group">
-                <input type="password" placeholder="Confirm Password" name="cpassword" value="<?php echo $_POST['cpassword']; ?>" required>
+                <input type="password" placeholder="Confirm NIK" name="cNIK" value="<?php echo $_POST['cNIK']; ?>" required>
             </div>
             <div class="input-group">
                 <button name="submit" class="btn">Register</button>
