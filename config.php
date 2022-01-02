@@ -3,12 +3,15 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$database = "uas_keamanan_sistem";
+$database = "db_toko";// nama database anda
  
-$conn = mysqli_connect($server, $user, $pass, $database);
- 
-if (!$conn) {
-    die("<script>alert('Gagal tersambung dengan database.')</script>");
-}
+try{
+		$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
+		//echo 'sukses';
+	}catch(PDOException $e){
+		echo 'Gagal tersambung dengan database.' .$e -> getMessage();
+	}
+	
+	$view = 'fungsi/view/view.php'; // direktori fungsi select data
  
 ?>
