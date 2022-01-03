@@ -3,10 +3,10 @@
 date_default_timezone_set("Asia/Jakarta");
 error_reporting(0);
  
-	$server = "localhost";
+	$host = "localhost";
 	$user = "root";
 	$pass = "";
-	$database = "db_toko";// nama database anda
+	$dbname = "db_toko";// nama database anda
 
 	try{
 			$config = new PDO("mysql:host=$host;dbname=$dbname;", $user,$pass);
