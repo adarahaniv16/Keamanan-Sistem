@@ -1,5 +1,5 @@
-<?php 
- @ob_start();
+<?php
+	@ob_start();
 	session_start();
 	if(isset($_POST['proses'])){
 		require 'config.php';
@@ -24,8 +24,8 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Dashboard">
@@ -41,10 +41,13 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-responsive.css" rel="stylesheet">
-</head>
-<body style="background:#004643;color:#fff;>
-    <div id="login-page" style="padding-top:3pc;">
-     <div class="container">
+
+  </head>
+  
+  <body style="background:#004643;color:#fff;">
+
+	  <div id="login-page" style="padding-top:3pc;">
+	  	<div class="container">
 		      <form class="form-login" method="POST">
 		        <h2 class="form-login-heading">Aplikasi POS</h2>
 		        <div class="login-wrap">
@@ -54,10 +57,13 @@
 		            <br>
 		            <button class="btn btn-primary btn-block" name="proses" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
 		        </div>
-		      </form>	  		  	
-	  	 </div>
-    </div>
-   <script src="assets/js/jquery.js"></script>
-   <script src="assets/js/bootstrap.min.js"></script>                                                                                                   
-</body>
+		      </form>	  	
+	  	
+	  	</div>
+	  </div>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
+
