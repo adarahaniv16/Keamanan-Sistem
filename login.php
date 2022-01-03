@@ -55,7 +55,6 @@
 		            <br>
 		            <button class="btn btn-primary btn-block" name="proses" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
 		        </div>
-                        <p class="login-register-text">Anda belum punya akun? <a href="register.php">Register</a></p>
 		      </form>	  		  	
 	  	 </div>
     </div>
