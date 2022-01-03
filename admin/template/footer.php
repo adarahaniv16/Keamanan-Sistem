@@ -1,47 +1,39 @@
-   <!--main content end-->
-   <!--footer start-->
-   <footer class="site-footer">
-       <div class="text-center">
-           <?php echo date('Y');?> - Sistem Penjualan Barang Berbasis Web |
-           By <a style="color:yellow;font-weight:700;" target="_blank">Kelompok 2</a>
-           <a href="#" class="go-top">
-               <i class="fa fa-angle-up"></i>
-           </a>
-       </div>
-   </footer>
-   <!--footer end-->
-   </section>
-
-   <!-- js placed at the end of the document so the pages load faster -->
-   <script src="assets/js/jquery.js"></script>
-   <script src="assets/js/jquery-1.8.3.min.js"></script>
-   <script src="assets/js/bootstrap.min.js"></script>
-   <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
-   <script src="assets/js/jquery.scrollTo.min.js"></script>
-   <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
-   <script src="assets/js/jquery.sparkline.js"></script>
-
-   <script src="assets/datatables/jquery.dataTables.min.js"></script>
-   <script src="assets/datatables/dataTables.bootstrap.min.js"></script>
-
-   <!--common script for all pages-->
-   <script src="assets/js/common-scripts.js"></script>
-
-   <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
-   <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
-
-   <!--script for this page-->
-   <script src="assets/js/sparkline-chart.js"></script>
-   <script src="assets/js/zabuto_calendar.js"></script>
-
-   <script type="text/javascript">
-       //datatable
-       $(function () {
-           $("#example1").DataTable();
-           $('#example2').DataTable();
-       });
-   </script>
-   <?php
+<!--footer-->
+    <footer class="site-footer">
+        <div class="text-center">
+            <?php echo date('Y');?> - Sistem Penjualan Barang Berbasis Web |
+            By <a style="color:yellow;font-weight:700;" target="_blank">Kelompok 2</a>
+            <a href="#" class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    </section>
+    <!-- js ditempatkan pada akhir dokumen agar halaman loading lebih cepat -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
+    <script src="assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="assets/datatables/dataTables.bootstrap.min.js"></script>
+    <!-- scriptuntuk semua halaman -->
+    <script src="assets/js/common-scripts.js"></script>
+    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
+    <!--script untuk halaman ini-->
+    <script src="assets/js/sparkline-chart.js"></script>
+    <script src="assets/js/zabuto_calendar.js"></script>
+    <script type="text/javascript">
+        //datatable
+        $(function () {
+            $("#example1").DataTable();
+            $('#example2').DataTable();
+        });
+    </script>
+    <?php
 			$sql=" select * from barang where stok <=3";
 			$row = $config -> prepare($sql);
 			$row -> execute();
@@ -51,7 +43,6 @@
 				if($q['stok'] == 1){	
 		?>
         <script type="text/javascript">
-       //template
         $(document).ready(function () {
             var unique_id = $.gritter.add({
                // heading notifikasi
@@ -61,14 +52,12 @@
                 image: 'assets/img/seru.png',
                 sticky: true,
                 time: '',
-               // (string | optional) the class name you want to apply to that specific message
                 class_name: 'my-sticky-class'
         });
         return false;
         });
         </script>
     <?php }}}?>
-
         <script type="application/javascript">
             $(document).ready(function () {
                 $("#date-popover").popover({
@@ -79,7 +68,6 @@
             $("#date-popover").click(function (e) {
                 $(this).hide();
             });
-
             $("#my-calendar").zabuto_calendar({
                 action: function () {
                     return myDateFunction(this.id, false);
@@ -100,8 +88,6 @@
             var to = $("#" + id).data("to");
             console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
         }
-
-
         //angka 500 dibawah ini artinya pesan akan muncul dalam 0,5 detik setelah document ready
         $(document).ready(function () {
             setTimeout(function () {
@@ -112,7 +98,6 @@
         setTimeout(function () {
             $(".alert-danger").fadeOut('slow');
         }, 5000);
-
         $(document).ready(function () {
             setTimeout(function () {
                 $(".alert-success").fadeIn('slow');
@@ -121,7 +106,6 @@
         setTimeout(function () {
             $(".alert-success").fadeOut('slow');
         }, 5000);
-
         $(document).ready(function () {
             setTimeout(function () {
                 $(".alert-warning").fadeIn('slow');
@@ -135,12 +119,10 @@
         $(".modal-create").hide();
         $(".bg-shadow").hide();
         $(".bg-shadow").hide();
-
         function clickModals() {
             $(".bg-shadow").fadeIn();
             $(".modal-create").fadeIn();
         }
-
         function cancelModals() {
             $('.modal-view').fadeIn();
             $(".modal-create").hide();

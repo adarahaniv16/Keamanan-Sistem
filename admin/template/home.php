@@ -1,13 +1,11 @@
 <!--main content start-->
 <section id="main-content">
 	<section class="wrapper">
-
 		<div class="row">
 			<div class="col-lg-9">
 				<div class="row" style="margin-left:1pc;margin-right:1pc;">
 					<h1>DASHBOARD</h1>
 					<hr>
-
 					<?php 
 						$sql=" select * from barang where stok <= 3";
 						$row = $config -> prepare($sql);

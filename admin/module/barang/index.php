@@ -1,9 +1,8 @@
 <!--main content-->
-      <section id="main-content">
-          <section class="wrapper">
-
-              <div class="row">
-                  <div class="col-lg-12 main-chart">
+	<section id="main-content">
+		<section class="wrapper">
+			<div class="row">
+				<div class="col-lg-12 main-chart">
 						<h3>Data Barang</h3>
 						<br/>
 						<?php if(isset($_GET['success-stok'])){?>
@@ -38,8 +37,6 @@
 								";	
 							}
 						?>
-
-						<!-- Trigger the modal with a button -->
 						
 						<button type="button" class="btn btn-primary btn-md pull-right" data-toggle="modal" data-target="#myModal">
 							<i class="fa fa-plus"></i> Insert Data</button>
@@ -70,7 +67,6 @@
 									</tr>
 								</thead>
 								<tbody>
-
 								<?php 
 									$totalBeli = 0;
 									$totalJual = 0;
@@ -78,7 +74,6 @@
 									if($_GET['stok'] == 'yes')
 									{
 										$hasil = $lihat -> barang_stok();
-
 									}else{
 										$hasil = $lihat -> barang();
 									}
@@ -142,10 +137,6 @@
 							</table>
 						</div>
 						<div class="clearfix" style="margin-top:7pc;"></div>
-					<!-- end view barang -->
-					<!-- tambah barang MODALS-->
-						<!-- Modal -->
-					
 						<div id="myModal" class="modal fade" role="dialog">
 							<div class="modal-dialog">
 								<!-- Modal content-->
@@ -219,9 +210,8 @@
 								</form>
 							</div>
 						</div>
-						
 					</div>
-              	</div>
-          	</section>
-      	</section>
-	
+				</div>
+			</section>
+		</section>
+
