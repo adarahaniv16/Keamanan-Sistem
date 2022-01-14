@@ -26,7 +26,7 @@
   
   <style>
     .header {
-      background: #328f6b;
+      background: #A267AC;
       color: #fff;
     }
     #main-content {
