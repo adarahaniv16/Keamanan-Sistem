@@ -6,7 +6,9 @@
 Aplikasi Stok Barang Berbasis Web ini dapat diakses pada tautan berikut : <br>
 https://websitepenjualanbarangg.000webhostapp.com/
 
-<h3>Anggota Kelompok:</h3>
+#Contributors
+Anggota kelompok yang berkontribusi dalam perancangan sistem ini, yakni :
+<br>
 1. FARHAN ASSEGAF			(1910631170019) <br>
 2. IDE NABILLA AUDY			(1910631170023) <br>
 3. DAVI HABIBIE HERMAWAN	(1910631170069) <br>
@@ -17,3 +19,7 @@ https://websitepenjualanbarangg.000webhostapp.com/
 8. TIARA DESTIANA			(1910631170237) <br>
 9. WAHYU DARAJAT			(1910631170239) <br>
 10. YUDHA RAMADHAN H		(1910631170241) <br>
+
+#User Interface
+Halaman Login
+href="Keamanan-Sistem/assets/img/pic/1.png"
