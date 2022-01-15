@@ -20,5 +20,9 @@ Anggota kelompok yang berkontribusi dalam perancangan sistem ini, yakni :
 9. WAHYU DARAJAT			(1910631170239) <br>
 10. YUDHA RAMADHAN H		(1910631170241) <br>
 
+# Dosen 
+
+Purwantoro, M.Kom.
+
 # User Interface
 
