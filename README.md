@@ -41,6 +41,13 @@ User Interface Halaman Kategori Barang
 
 ![image](https://user-images.githubusercontent.com/84364097/149612998-21fae367-094e-4cbb-99ba-e6dd00a3156e.png)
 
-User Interface 
+User Interface Halaman User
+
+![image](https://user-images.githubusercontent.com/84364097/149613079-856c6116-16cf-4143-893c-56ab6ee2e849.png)
+
+User Interface Halaman Setting
+
+![image](https://user-images.githubusercontent.com/84364097/149613095-2696244b-da11-4478-80e5-a44d671d65da.png)
+
 
 
