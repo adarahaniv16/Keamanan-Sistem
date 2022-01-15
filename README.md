@@ -1,7 +1,11 @@
 # Aplikasi Stok Barang Berbasis Web
 <p>Project Ujian Akhir Semester Mata Kuliah Keamanan Sistem</p>
 <p> Kelas 5D - Teknik Informatika </p>
-<hr>
+
+# Tautan Hosting
+Aplikasi Stok Barang Berbasis Web ini dapat diakses pada tautan berikut : <br>
+https://websitepenjualanbarangg.000webhostapp.com/
+
 <h3>Anggota Kelompok:</h3>
 1. FARHAN ASSEGAF			(1910631170019) <br>
 2. IDE NABILLA AUDY			(1910631170023) <br>
