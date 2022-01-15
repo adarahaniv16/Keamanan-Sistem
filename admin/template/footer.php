@@ -1,7 +1,7 @@
 <!--footer-->
-    <footer class="site-footer">
+<footer class="site-footer" style="background-color: #9D84B7">
         <div class="text-center">
-            <?php echo date('Y');?> - Sistem Penjualan Barang Berbasis Web |
+            <?php echo date('Y');?> - Aplikasi Stok Barang Berbasis Web |
             By <a style="color:yellow;font-weight:700;" target="_blank">Kelompok 2</a>
             <a href="#" class="go-top">
                 <i class="fa fa-angle-up"></i>

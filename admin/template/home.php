@@ -28,7 +28,7 @@
 					<?php $jual = $lihat -> jual_row();?>
 					<div class="row">
 						<!--STATUS PANELS -->
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="panel panel-primary">
 								<div class="panel-heading">
 									<h5><i class="fa fa-desktop"></i> Nama Barang</h5>
@@ -46,7 +46,7 @@
 							<!--/grey-panel -->
 						</div><!-- /col-md-3-->
 						<!-- STATUS PANELS -->
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="panel panel-success">
 								<div class="panel-heading">
 									<h5><i class="fa fa-desktop"></i> Stok Barang</h5>
@@ -64,25 +64,7 @@
 							<!--/grey-panel -->
 						</div><!-- /col-md-3-->
 						<!-- STATUS PANELS -->
-						<div class="col-md-3">
-							<div class="panel panel-info">
-								<div class="panel-heading">
-									<h5><i class="fa fa-desktop"></i> Telah Terjual</h5>
-								</div>
-								<div class="panel-body">
-									<center>
-										<h1><?php echo number_format($jual['stok']);?></h1>
-									</center>
-								</div>
-								<div class="panel-footer">
-									<h4 style="font-size:15px;font-weight:700;font-weight:700;"><a
-											href='index.php?page=laporan'>Tabel laporan <i
-												class='fa fa-angle-double-right'></i></a></h4>
-								</div>
-							</div>
-							<!--/grey-panel -->
-						</div><!-- /col-md-3-->
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<div class="panel panel-danger">
 								<div class="panel-heading">
 									<h5><i class="fa fa-desktop"></i> Kategori Barang</h5>
