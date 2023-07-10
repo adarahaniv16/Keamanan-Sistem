@@ -6,7 +6,8 @@
 Aplikasi Stok Barang Berbasis Web ini dapat diakses pada tautan berikut : <br>
 https://websitepenjualanbarangg.000webhostapp.com/
 
-UserID : admin
+UserID : admin <br>
+
 Password : 123
 
 # Contributors
