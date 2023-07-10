@@ -6,6 +6,9 @@
 Aplikasi Stok Barang Berbasis Web ini dapat diakses pada tautan berikut : <br>
 https://websitepenjualanbarangg.000webhostapp.com/
 
+UserID : admin
+Password : 123
+
 # Contributors
 Anggota kelompok yang berkontribusi dalam perancangan sistem ini, yakni :
 <br>
